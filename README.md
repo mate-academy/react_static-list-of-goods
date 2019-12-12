@@ -7,7 +7,7 @@ Add link here: `[DEMO LINK](https://<your_account>.github.io/react_static-list-o
 - Create a component `GoodsList` accepting an array of goods and rendering them inside `<ul>`
 - Create a component `GoodItem` accepting a good object and displaying its name in `good.color`
   (for example `style={{ color: 'red' }}`)
-- Render 3 different lists inside the `App`:
+- Render 3 `GoodsLists` inside the `App` displaying different goods:
     1. The first one with all the `goodsFromServer` sorted by name
     1. The second one 5 first goods from `goodsFromServer` in the initial order
     1. The third one with containing only `red` goods
