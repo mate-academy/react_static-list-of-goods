@@ -4,6 +4,7 @@
 Add link here: `[DEMO LINK](https://<your_account>.github.io/react_static-list-of-goods/)`
 
 ## Task
+You have an array of goods `goodsFromServer` hardcoded inside `App.js` 
 - Create a component `GoodsList` accepting an array of goods and rendering them inside `<ul>`
 - Create a component `GoodItem` accepting a good object and displaying its name in `good.color`
   (for example `style={{ color: 'red' }}`)
