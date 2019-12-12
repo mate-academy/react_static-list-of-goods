@@ -4,10 +4,13 @@
 Add link here: `[DEMO LINK](https://<your_account>.github.io/react_static-list-of-goods/)`
 
 ## Task
-Render 3 different lists of given `goodsFromServer`. Good name should be displayed with a `good.color`
-- The first one with all the `goodsFromServer` sorted by name
-- The second one 5 first goods from `goodsFromServer` in the initial order
-- The third one with containing only `red` goods
+- Create a component `GoodsList` accepting an array of goods and rendering them inside `<ul>`
+- Create a component `GoodItem` accepting a good object and displaying its name in `good.color`
+  (for example `style={{ color: 'red' }}`)
+- Render 3 different lists:
+    1. The first one with all the `goodsFromServer` sorted by name
+    1. The second one 5 first goods from `goodsFromServer` in the initial order
+    1. The third one with containing only `red` goods
 
 ## Workflow
 - Fork the repository with task
